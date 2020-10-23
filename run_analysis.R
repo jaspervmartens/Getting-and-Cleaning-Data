@@ -79,5 +79,5 @@ df_summary <- summarise_if(df, is.numeric, mean)
 rm(activity_labels, features, i, subject_test, subject_train, wantedcolumns, x_test, x_train, y_test, y_train)
 
 ## Saving tidy data frames
-write.csv(df, file = "UCI HAR tidy dataset.csv")
-write.csv(df_summary, file = "UCI HAR summary dataset.csv")
+write.table(df, file = "UCI HAR tidy dataset.txt", row.names = FALSE)
+write.table(df_summary, file = "UCI HAR summary dataset.txt", row.names = FALSE)
