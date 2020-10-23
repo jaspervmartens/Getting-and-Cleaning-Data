@@ -1,0 +1,1 @@
+The run_analysis.R script should be sourced into R while the UCI HAR Dataset folder is in the working directory. Doing so will save the tidy dataset and summary dataset to the working directory.
